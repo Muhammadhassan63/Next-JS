@@ -9,6 +9,7 @@ export default function page() {
         <Link href='/about/aboutcollege'>Go to About College</Link>
         <br />
         <Link href='/about/aboutstudent'>Go to About Student</Link>
+        
       
     </div>
   )

@@ -1,6 +1,9 @@
 'use client'
 import { useRouter } from 'next/navigation'
+//import { redirect } from 'next/navigation'
+
 export default function login() {
+  // redirect('/about')redirection
   const router=useRouter()
   const navigation=(name)=>{
     router.push(name)
